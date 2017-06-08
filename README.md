@@ -1,6 +1,6 @@
 # hello-world
 first excercise on GitHub
 
-Hi!!
+Hi, My name is Mikolaj / Nicolas
 
-My name is Mikolaj / Nicolas
+Second branch and second edit of this text
