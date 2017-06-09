@@ -1,9 +1,9 @@
 package funkcje;
 
-public class Matematyka	// Przyk³ad iteracyjnego wykonania funkcji silni
+public class Matematyka	// PrzykÅ‚ad iteracyjnego wykonania funkcji silni
 {
 
-	public static long silnia(int argument)
+	public static long silnia(int argument) // PrzykÅ‚ad iteracyjnego wykonania funkcji silni
 		{
 		long wynik = 1 ;
 		for (int i = 1; i <= argument; i++) {
@@ -12,7 +12,7 @@ public class Matematyka	// Przyk³ad iteracyjnego wykonania funkcji silni
 		return wynik;
 		}
 	
-	public static long rSilnia(int argument) // Przyk³ad rekurencyjnego wykonania funkcji silni
+	public static long rSilnia(int argument) // PrzykÅ‚ad rekurencyjnego wykonania funkcji silni
 		{
 		if (argument == 1) 
 			return 1;
@@ -22,7 +22,7 @@ public class Matematyka	// Przyk³ad iteracyjnego wykonania funkcji silni
 			
 		}
 	
-	public static long ciagFibonacciego(int argIleRazy) // Przyk³ad iteracyjnego wykonania ci¹gu fibonacciego
+	public static long ciagFibonacciego(int argIleRazy) // PrzykÅ‚ad iteracyjnego wykonania ciÅ¡gu fibonacciego
 		{
 		long wynik = 0;
 		long arg1 = 0;
@@ -38,7 +38,7 @@ public class Matematyka	// Przyk³ad iteracyjnego wykonania funkcji silni
 		
 		}
 	 
-	public static long rCiagFibonacciego(int argIleRazy)// Przyk³ad rekurencyjnego wykonaiani ci¹gu fibonacciego
+	public static long rCiagFibonacciego(int argIleRazy)// PrzykÅ‚ad rekurencyjnego wykonaiani ciÅ¡gu fibonacciego
 	{
 	    if (argIleRazy == 1)
 		return 0;
